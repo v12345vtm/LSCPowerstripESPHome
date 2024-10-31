@@ -8,7 +8,10 @@ https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/powerstrip_LSC_actio
 
 Chip : CB3S
 
-flash : add a ttl serial to usb to rx1 tx1
+flash : add a ttl serial to usb to rx1 tx1  , to create the first ESphome with bootloader use 
+u2f file , and flash it via "itchiptool"
+info  to flash  : https://www.youtube.com/watch?v=t0o8nMbqOSA&lc=Ugwt_OvWiYub5lfB94d4AaABAg.AAGfQA1MczbAAGgyMCThEY
+
 bootmode  : add a push button from CEN to GND and tap it to toggle the wifichip to bootmode
 
 gpio14 = pin4 = relay a
