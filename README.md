@@ -9,6 +9,8 @@ https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/powerstrip_LSC_actio
 Chip : CB3S
 
 flash : add a ttl serial to usb to rx1 tx1  , to create the first ESphome with bootloader use 
+https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/2024_10_31_22_58_04_Window.png
+
 u2f file , and flash it via "itchiptool"
 info  to flash  : https://www.youtube.com/watch?v=t0o8nMbqOSA&lc=Ugwt_OvWiYub5lfB94d4AaABAg.AAGfQA1MczbAAGgyMCThEY
 
