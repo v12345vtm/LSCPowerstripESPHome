@@ -4,6 +4,8 @@ remove tuya and make it ESPHome
 
 https://shop.action.com/en-nl/p/8712879159049/lsc-smart-connect-power-strip
 
+https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/powerstrip_LSC_action.jpg
+
 Chip : CB3S
 
 flash : add a ttl serial to usb to rx1 tx1
