@@ -20,6 +20,7 @@ gpio7  = pin14 = relay c
 gpio8  = pin13 = relay d
 
 gpio23 = pin2 = led inside button
+
 gpio10 = pin15 = button
 
 
