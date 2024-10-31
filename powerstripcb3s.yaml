@@ -1,0 +1,95 @@
+esphome:
+  name: powerstripcb3s
+  friendly_name: PowerstripCB3S
+
+bk72xx:
+  board: cb3s
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    #key: "vith2DHDcrobz3PrM/hgxa+bY0K660lxXGYkBuTEWgppZSw="
+
+ota:
+  - platform: esphome
+    #password: "vith14bee45019adb2a567e68dca2b699406"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Powerstripcb3S Fallback Hotspot"
+    password: "kipkipkip"
+
+web_server:
+  port: 80    
+
+captive_portal:
+
+# https://docs.libretiny.eu/boards/cb3s/cb3s.svg
+
+
+switch:
+  - platform: gpio
+    pin: GPIO14
+    id: relay14 #dit is onze fysyke relais
+    name: "A"
+    inverted: False
+
+  - platform: gpio
+    pin: GPIO6
+    id: relay6 #dit is onze fysyke relais
+    name: "B"
+    inverted: False
+
+  - platform: gpio
+    pin: GPIO7
+    id: relay7 #dit is onze fysyke relais
+    name: "C"
+    inverted: False
+
+  - platform: gpio
+    pin: GPIO8
+    id: relay8 #dit is onze fysyke relais
+    name: "D"
+    inverted: False
+
+
+  
+
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO10
+      inverted: True
+      mode: INPUT_PULLUP
+    name: "Button"
+    id : knop15 #dit is onze fysike knop 
+
+
+output:
+  - platform: gpio
+    pin: GPIO23 #heeft de groene led in de button
+    id: led_output
+    inverted: True  
+
+
+light:
+  - platform: binary
+    name: "Led"
+    output: led_output
+
+
+
+
+
+
+    
+
+        
