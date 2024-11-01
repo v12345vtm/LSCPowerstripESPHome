@@ -1,10 +1,10 @@
-# LSCPowerstripESPHome
+# LSC Powerstrip Custom Firmware ESPHome
 remove tuya and make it ESPHome
 
 
 https://shop.action.com/en-nl/p/8712879159049/lsc-smart-connect-power-strip
+![A picture of the box that the smart power plug came in]([./img/box.jpg](https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/powerstrip_LSC_action.jpg))
 
-https://github.com/v12345vtm/LSCPowerstripESPHome/blob/main/powerstrip_LSC_action.jpg
 
 Chip : CB3S
 
